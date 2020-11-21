@@ -8,16 +8,7 @@
 import scrapy
 
 
-
-class SecuritiesItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
-
-
-class GetItem(scrapy.Item):
-    name = scrapy.Field()
-    sex = scrapy.Field()
-    age = scrapy.Field()
-    code = scrapy.Field()
-    jobs = scrapy.Field()
+class BookItem(scrapy.Item):
+    title = scrapy.Field()
+    author = scrapy.Field()
+    content = scrapy.Field()
